@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+li {
+  @apply px-6;
+  @apply cursor-pointer;
+  @apply hover:text-[#5278bb];
+  @apply font-semibold
+  
+}
